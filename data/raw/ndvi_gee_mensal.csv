@@ -1,0 +1,109 @@
+municipio,estado,bioma,latitude,longitude,ano_mes,ndvi_medio
+Apui,AM,Amazonia,-7.1941,-59.8913,2025-06,0.6984
+Apui,AM,Amazonia,-7.1941,-59.8913,2025-07,0.597
+Apui,AM,Amazonia,-7.1941,-59.8913,2025-08,0.5144
+Apui,AM,Amazonia,-7.1941,-59.8913,2025-09,0.1864
+Apui,AM,Amazonia,-7.1941,-59.8913,2025-10,0.6658
+Apui,AM,Amazonia,-7.1941,-59.8913,2025-11,0.6206
+Apui,AM,Amazonia,-7.1941,-59.8913,2025-12,0.6443
+Apui,AM,Amazonia,-7.1941,-59.8913,2026-01,0.5876
+Apui,AM,Amazonia,-7.1941,-59.8913,2026-02,0.3496
+Apui,AM,Amazonia,-7.1941,-59.8913,2026-03,0.3953
+Apui,AM,Amazonia,-7.1941,-59.8913,2026-04,0.6902
+Apui,AM,Amazonia,-7.1941,-59.8913,2026-05,0.7404
+Labrea,AM,Amazonia,-7.2586,-64.7981,2025-06,0.6076
+Labrea,AM,Amazonia,-7.2586,-64.7981,2025-07,0.6322
+Labrea,AM,Amazonia,-7.2586,-64.7981,2025-08,0.6233
+Labrea,AM,Amazonia,-7.2586,-64.7981,2025-09,0.5367
+Labrea,AM,Amazonia,-7.2586,-64.7981,2025-10,0.6119
+Labrea,AM,Amazonia,-7.2586,-64.7981,2025-11,0.4799
+Labrea,AM,Amazonia,-7.2586,-64.7981,2025-12,0.3347
+Labrea,AM,Amazonia,-7.2586,-64.7981,2026-01,0.2576
+Labrea,AM,Amazonia,-7.2586,-64.7981,2026-02,0.1262
+Labrea,AM,Amazonia,-7.2586,-64.7981,2026-03,0.4078
+Labrea,AM,Amazonia,-7.2586,-64.7981,2026-04,0.3089
+Labrea,AM,Amazonia,-7.2586,-64.7981,2026-05,0.6155
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2025-06,0.6414
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2025-07,0.5675
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2025-08,0.5057
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2025-09,0.4437
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2025-10,0.5705
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2025-11,0.4655
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2025-12,0.2835
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2026-01,0.2183
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2026-02,0.4921
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2026-03,0.3027
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2026-04,0.4567
+Novo Progresso,PA,Amazonia,-7.1256,-55.3786,2026-05,0.7362
+Altamira,PA,Amazonia,-3.2041,-52.2063,2025-06,0.2205
+Altamira,PA,Amazonia,-3.2041,-52.2063,2025-07,0.323
+Altamira,PA,Amazonia,-3.2041,-52.2063,2025-08,0.2439
+Altamira,PA,Amazonia,-3.2041,-52.2063,2025-09,0.2852
+Altamira,PA,Amazonia,-3.2041,-52.2063,2025-10,0.202
+Altamira,PA,Amazonia,-3.2041,-52.2063,2025-11,0.2519
+Altamira,PA,Amazonia,-3.2041,-52.2063,2025-12,0.1401
+Altamira,PA,Amazonia,-3.2041,-52.2063,2026-01,
+Altamira,PA,Amazonia,-3.2041,-52.2063,2026-02,
+Altamira,PA,Amazonia,-3.2041,-52.2063,2026-03,0.0562
+Altamira,PA,Amazonia,-3.2041,-52.2063,2026-04,0.1717
+Altamira,PA,Amazonia,-3.2041,-52.2063,2026-05,0.2398
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2025-06,0.3642
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2025-07,0.3338
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2025-08,0.2956
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2025-09,0.2782
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2025-10,0.3288
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2025-11,0.3178
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2025-12,0.0965
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2026-01,0.3573
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2026-02,0.2582
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2026-03,0.3822
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2026-04,0.3152
+Porto Velho,RO,Amazonia,-8.7612,-63.9004,2026-05,0.3741
+Corumba,MS,Pantanal,-19.0094,-57.6533,2025-06,0.5057
+Corumba,MS,Pantanal,-19.0094,-57.6533,2025-07,0.5196
+Corumba,MS,Pantanal,-19.0094,-57.6533,2025-08,0.4313
+Corumba,MS,Pantanal,-19.0094,-57.6533,2025-09,0.3977
+Corumba,MS,Pantanal,-19.0094,-57.6533,2025-10,0.4687
+Corumba,MS,Pantanal,-19.0094,-57.6533,2025-11,0.475
+Corumba,MS,Pantanal,-19.0094,-57.6533,2025-12,0.5845
+Corumba,MS,Pantanal,-19.0094,-57.6533,2026-01,0.6379
+Corumba,MS,Pantanal,-19.0094,-57.6533,2026-02,0.5715
+Corumba,MS,Pantanal,-19.0094,-57.6533,2026-03,0.6345
+Corumba,MS,Pantanal,-19.0094,-57.6533,2026-04,0.6174
+Corumba,MS,Pantanal,-19.0094,-57.6533,2026-05,0.6039
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2025-06,0.6382
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2025-07,0.5557
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2025-08,0.5065
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2025-09,0.4782
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2025-10,0.4941
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2025-11,0.6217
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2025-12,0.6542
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2026-01,0.6676
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2026-02,0.6396
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2026-03,0.6066
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2026-04,0.6399
+Porto Murtinho,MS,Pantanal,-21.6981,-57.8827,2026-05,0.7026
+Pocone,MT,Pantanal,-16.2568,-56.6228,2025-06,0.5185
+Pocone,MT,Pantanal,-16.2568,-56.6228,2025-07,0.4707
+Pocone,MT,Pantanal,-16.2568,-56.6228,2025-08,0.3593
+Pocone,MT,Pantanal,-16.2568,-56.6228,2025-09,0.3144
+Pocone,MT,Pantanal,-16.2568,-56.6228,2025-10,0.3382
+Pocone,MT,Pantanal,-16.2568,-56.6228,2025-11,0.4398
+Pocone,MT,Pantanal,-16.2568,-56.6228,2025-12,0.5783
+Pocone,MT,Pantanal,-16.2568,-56.6228,2026-01,0.5661
+Pocone,MT,Pantanal,-16.2568,-56.6228,2026-02,0.4107
+Pocone,MT,Pantanal,-16.2568,-56.6228,2026-03,0.4944
+Pocone,MT,Pantanal,-16.2568,-56.6228,2026-04,0.5692
+Pocone,MT,Pantanal,-16.2568,-56.6228,2026-05,0.5279
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2025-06,0.6173
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2025-07,0.5868
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2025-08,0.4462
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2025-09,0.3893
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2025-10,0.4132
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2025-11,0.44
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2025-12,0.4973
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2026-01,0.7043
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2026-02,0.6636
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2026-03,0.5318
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2026-04,0.6817
+Barao de Melgaco,MT,Pantanal,-16.1945,-55.9688,2026-05,0.6488

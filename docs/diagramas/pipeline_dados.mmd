@@ -1,0 +1,45 @@
+flowchart LR
+    A[Open-Meteo<br/>Dados climáticos] --> B[data/raw<br/>Dados brutos]
+    C[NASA FIRMS<br/>Focos de calor] --> B
+    D[Google Earth Engine<br/>Processamento geoespacial] --> B
+    E[Sentinel-2<br/>Imagens orbitais] --> F[docs/imagens<br/>Imagens analisadas]
+    D --> G[NDVI<br/>Índice de vegetação]
+    G --> B
+
+    B --> H[Preparação e consolidação dos dados]
+    H --> I[data/processed<br/>Dataset consolidado]
+
+    I --> J[Treinamento do modelo]
+    J --> K[XGBoost<br/>Modelo preditivo]
+    K --> L[src/models<br/>Artefatos do modelo]
+
+    I --> M[Agente de Risco]
+    L --> M
+    M --> N[Predição de risco<br/>baixo / médio / alto]
+
+    F --> O[Agente Visual<br/>BLIP]
+    F --> P[Agente YOLO<br/>Detecção visual complementar]
+
+    Q[docs/base_conhecimento<br/>Protocolos e governança] --> R[Agente RAG]
+
+    N --> S[Orquestrador Multiagente]
+    O --> S
+    P --> S
+    R --> S
+
+    S --> T[Agente Relatório<br/>OpenAI ou fallback local]
+    T --> U[Relatório executivo]
+
+    S --> V[Dashboard Web<br/>Streamlit]
+    U --> V
+
+    V --> W[Estação ESP32<br/>Alerta local]
+    W --> X[LCD / LEDs / Buzzer]
+    W --> Y[Botão Human-in-the-Loop<br/>Confirmação humana]
+
+    B --> Z[Governança e rastreabilidade]
+    I --> Z
+    F --> Z
+    L --> Z
+    Q --> Z
+    S --> Z

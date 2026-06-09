@@ -1,0 +1,14 @@
+GOVERNANÇA DE IA - SENTINELA ORBITAL IA
+
+O sistema utiliza dados reais de fontes públicas e modelos de IA para apoio à decisão ambiental.
+
+As previsões não substituem avaliação humana especializada.
+
+Boas práticas:
+Registrar origem dos dados utilizados.
+Informar limitações e escopo dos modelos.
+Evitar afirmações absolutas sobre ocorrência de incêndio.
+Manter rastreabilidade entre dados climáticos, imagens orbitais e previsão.
+Proteger chaves de API em arquivo .env.
+Não versionar credenciais no GitHub.
+Utilizar IA generativa apenas para interpretação e relatório, sem alterar os dados técnicos calculados.

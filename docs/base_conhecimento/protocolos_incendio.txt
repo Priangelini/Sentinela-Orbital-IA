@@ -1,0 +1,21 @@
+PROTOCOLOS DE RESPOSTA A RISCO DE INCÊNDIO
+
+Risco Baixo:
+Manter monitoramento periódico.
+Atualizar dados climáticos e orbitais.
+Observar mudanças bruscas em precipitação, vento e umidade.
+Manter registro histórico para comparação.
+
+Risco Médio:
+Aumentar frequência de monitoramento.
+Validar imagens orbitais recentes.
+Comunicar equipes preventivas locais.
+Observar regiões com baixa precipitação, aumento de focos de calor e redução de NDVI.
+Preparar resposta preventiva.
+
+Risco Alto:
+Acionar equipes de resposta.
+Emitir alerta preventivo.
+Priorizar regiões com baixa umidade, alta temperatura, vento elevado e focos de calor.
+Utilizar imagens orbitais e sensores locais para confirmação.
+Reforçar comunicação com órgãos ambientais e defesa civil.

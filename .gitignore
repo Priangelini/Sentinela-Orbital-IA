@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pkl
+# Modelos YOLO
+yolov8n.pt
+*.pt

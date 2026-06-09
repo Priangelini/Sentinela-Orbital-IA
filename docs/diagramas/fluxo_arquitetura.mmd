@@ -1,0 +1,69 @@
+flowchart TD
+
+    A[Usuário seleciona município] --> B[Dashboard Web - Streamlit]
+
+    B --> C[Orquestrador Multiagente]
+
+    C --> D[Agente Climático]
+    C --> E[Agente de Risco]
+    C --> F[Agente Visual BLIP]
+    C --> G[Agente YOLO]
+    C --> H[Agente RAG]
+    C --> I[Agente Relatório]
+
+    D --> D1[Open-Meteo]
+    D --> D2[NASA FIRMS]
+
+    E --> E1[XGBoost]
+
+    F --> F1[Sentinel-2]
+    F --> F2[Google Earth Engine]
+
+    G --> G1[Detecção Visual Complementar]
+
+    H --> H1[Base de Conhecimento]
+    H1 --> H2[Protocolos Operacionais]
+    H1 --> H3[Governança de IA]
+
+    I --> I1[OpenAI]
+    I --> I2[Fallback Local]
+
+    D1 --> P[Persistência Local]
+    D2 --> P
+    F1 --> P
+    F2 --> P
+    E1 --> P
+    H1 --> P
+
+    P --> P1[data/raw]
+    P --> P2[data/processed]
+    P --> P3[docs/imagens]
+    P --> P4[docs/base_conhecimento]
+    P --> P5[src/models]
+
+    C --> R[Resultado Consolidado]
+
+    R --> S[Governança e Rastreabilidade]
+
+    S --> S1[Transparência]
+    S --> S2[RAG]
+    S --> S3[Human-in-the-Loop]
+    S --> S4[Proteção de Credenciais]
+
+    R --> T[Dashboard Web]
+
+    T --> T1[Mapa Geográfico]
+    T --> T2[Indicadores de Risco]
+    T --> T3[BLIP]
+    T --> T4[YOLO]
+    T --> T5[Relatório Executivo]
+    T --> T6[Contexto RAG]
+
+    R --> U[Estação ESP32]
+
+    U --> U1[LCD]
+    U --> U2[LED Verde]
+    U --> U3[LED Amarelo]
+    U --> U4[LED Vermelho]
+    U --> U5[Buzzer]
+    U --> U6[Botão Human-in-the-Loop]
