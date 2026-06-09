@@ -1,4 +1,5 @@
 flowchart LR
+
     A[Open-Meteo<br/>Dados climáticos] --> B[data/raw<br/>Dados brutos]
     C[NASA FIRMS<br/>Focos de calor] --> B
     D[Google Earth Engine<br/>Processamento geoespacial] --> B
@@ -27,7 +28,7 @@ flowchart LR
     P --> S
     R --> S
 
-    S --> T[Agente Relatório<br/>OpenAI ou fallback local]
+    S --> T[Agente Relatório<br/>OpenAI + Fallback Local]
     T --> U[Relatório executivo]
 
     S --> V[Dashboard Web<br/>Streamlit]
