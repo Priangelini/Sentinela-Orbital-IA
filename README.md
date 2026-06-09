@@ -302,10 +302,6 @@ https://sentinela-orbital-ia.streamlit.app/
 
 https://wokwi.com/projects/466330583730476033
 
-### Repositório GitHub
-
-https://github.com/Priangelini/Sentinela-Orbital-IA
-
 ### Vídeo Demonstrativo
 
 [▶ Assistir demonstração](https://youtu.be/SEU_VIDEO)
