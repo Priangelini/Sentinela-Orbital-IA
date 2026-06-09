@@ -8,7 +8,7 @@
 
 # 🔥 Sentinela Orbital IA
 
-## Capítulo 1 - Gestão de Crises com Sistema Preditivo em IA
+## Gestão de Crises com Sistema Preditivo em IA
 
 ---
 
