@@ -1,46 +1,64 @@
-flowchart LR
+flowchart TD
 
-    A[Open-Meteo<br/>Dados climáticos] --> B[data/raw<br/>Dados brutos]
-    C[NASA FIRMS<br/>Focos de calor] --> B
-    D[Google Earth Engine<br/>Processamento geoespacial] --> B
-    E[Sentinel-2<br/>Imagens orbitais] --> F[docs/imagens<br/>Imagens analisadas]
-    D --> G[NDVI<br/>Índice de vegetação]
-    G --> B
+    A[Fontes de Dados] --> B[Open-Meteo]
+    A --> C[NASA FIRMS]
+    A --> D[Google Earth Engine]
+    A --> E[Sentinel-2]
+    A --> F[NDVI]
 
-    B --> H[Preparação e consolidação dos dados]
-    H --> I[data/processed<br/>Dataset consolidado]
+    B --> G[data/raw]
+    C --> G
+    D --> G
+    E --> H[docs/imagens]
+    F --> G
 
-    I --> J[Treinamento do modelo]
-    J --> K[XGBoost<br/>Modelo preditivo]
-    K --> L[src/models<br/>Artefatos do modelo]
+    G --> I[Preparação e Consolidação dos Dados]
+    I --> J[data/processed]
+    J --> K[Dataset consolidado]
 
-    I --> M[Agente de Risco]
-    L --> M
-    M --> N[Predição de risco<br/>baixo / médio / alto]
+    K --> L[Treinamento do Modelo]
+    L --> M[XGBoost]
+    M --> N[src/models]
+    N --> O[Artefatos do modelo]
+    O --> P[Agente de Risco]
 
-    F --> O[Agente Visual<br/>BLIP]
-    F --> P[Agente YOLO<br/>Detecção visual complementar]
+    P --> Q[Predição de risco]
+    Q --> Q1[Baixo]
+    Q --> Q2[Médio]
+    Q --> Q3[Alto]
 
-    Q[docs/base_conhecimento<br/>Protocolos e governança] --> R[Agente RAG]
+    H --> R[Agente Visual BLIP]
+    R --> R1[Interpretação da imagem orbital]
 
-    N --> S[Orquestrador Multiagente]
-    O --> S
-    P --> S
-    R --> S
+    H --> S[Agente YOLO]
+    S --> S1[Detecção visual complementar]
 
-    S --> T[Agente Relatório<br/>OpenAI + Fallback Local]
-    T --> U[Relatório executivo]
+    T[docs/base_conhecimento] --> U[Agente RAG]
+    U --> U1[Protocolos de incêndio]
+    U --> U2[Governança de IA]
 
-    S --> V[Dashboard Web<br/>Streamlit]
-    U --> V
+    Q --> V[Orquestrador Multiagente]
+    R1 --> V
+    S1 --> V
+    U1 --> V
+    U2 --> V
 
-    V --> W[Estação ESP32<br/>Alerta local]
-    W --> X[LCD / LEDs / Buzzer]
-    W --> Y[Botão Human-in-the-Loop<br/>Confirmação humana]
+    V --> W[Agente Relatório]
+    W --> W1[OpenAI GPT-4.1 Mini]
+    W --> W2[Fallback Local]
+    W --> X[Relatório Executivo]
 
-    B --> Z[Governança e rastreabilidade]
-    I --> Z
-    F --> Z
-    L --> Z
-    Q --> Z
-    S --> Z
+    V --> Y[Dashboard Web - Streamlit]
+    X --> Y
+
+    Y --> Z[Estação ESP32]
+    Z --> Z1[LCD]
+    Z --> Z2[LEDs]
+    Z --> Z3[Buzzer]
+    Z --> Z4[Botão Human-in-the-Loop]
+
+    V --> AA[Governança e Confiabilidade]
+    AA --> AA1[Transparência]
+    AA --> AA2[Proteção de credenciais]
+    AA --> AA3[Documentação da origem dos dados]
+    AA --> AA4[Governança baseada em RAG]

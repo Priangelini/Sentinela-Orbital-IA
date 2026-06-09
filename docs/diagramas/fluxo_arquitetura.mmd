@@ -1,71 +1,75 @@
 flowchart TD
 
     A[Usuário seleciona município] --> B[Dashboard Web - Streamlit]
-
     B --> C[Orquestrador Multiagente]
 
-    C --> D[Agente Climático]
-    C --> E[Agente de Risco]
-    C --> F[Agente Visual BLIP]
-    C --> G[Agente YOLO]
-    C --> H[Agente RAG]
-    C --> I[Agente Relatório]
-
+    C --> D[Camada de Coleta e Dados]
     D --> D1[Open-Meteo]
     D --> D2[NASA FIRMS]
+    D --> D3[Google Earth Engine]
+    D --> D4[Sentinel-2]
+    D --> D5[NDVI]
 
-    E --> E1[XGBoost]
-
-    F --> F1[Sentinel-2]
-    F --> F2[Google Earth Engine]
-
-    G --> G1[Sentinel-2]
-    G --> G2[Detecção Visual Complementar]
-
-    H --> H1[Base de Conhecimento]
-    H1 --> H2[Protocolos Operacionais]
-    H1 --> H3[Governança de IA]
-
-    I --> I1[OpenAI]
-    I --> I2[Fallback Local]
-
-    D1 --> P[Persistência Local]
-    D2 --> P
-    F1 --> P
-    F2 --> P
-    G1 --> P
-    E1 --> P
-    H1 --> P
-
+    D --> P[Persistência Local]
     P --> P1[data/raw]
     P --> P2[data/processed]
     P --> P3[docs/imagens]
     P --> P4[docs/base_conhecimento]
     P --> P5[src/models]
 
-    C --> R[Resultado Consolidado]
+    C --> E[Camada de Agentes de IA]
 
-    R --> S[Governança e Rastreabilidade]
+    E --> E1[Agente Climático]
+    E1 --> E1A[Análise das condições ambientais]
 
-    S --> S1[Transparência]
-    S --> S2[RAG]
-    S --> S3[Human-in-the-Loop]
-    S --> S4[Proteção de Credenciais]
+    E --> E2[Agente de Risco]
+    E2 --> E2A[XGBoost]
+    E2A --> E2B[Classificação: baixo, médio ou alto]
 
-    R --> T[Dashboard Web]
+    E --> E3[Agente Visual BLIP]
+    E3 --> E3A[Interpretação semântica da imagem orbital]
 
-    T --> T1[Mapa Geográfico]
-    T --> T2[Indicadores de Risco]
-    T --> T3[BLIP]
-    T --> T4[YOLO]
-    T --> T5[Relatório Executivo]
-    T --> T6[Contexto RAG]
+    E --> E4[Agente YOLO]
+    E4 --> E4A[Detecção visual complementar]
 
-    R --> U[Estação ESP32]
+    E --> E5[Agente RAG]
+    E5 --> E5A[Consulta à base de conhecimento]
+    E5A --> E5B[Protocolos operacionais]
+    E5A --> E5C[Governança de IA]
 
-    U --> U1[LCD]
-    U --> U2[LED Verde]
-    U --> U3[LED Amarelo]
-    U --> U4[LED Vermelho]
-    U --> U5[Buzzer]
-    U --> U6[Botão Human-in-the-Loop]
+    E --> E6[Agente Relatório]
+    E6 --> E6A[OpenAI GPT-4.1 Mini]
+    E6 --> E6B[Fallback Local]
+
+    E1A --> R[Resultado Consolidado]
+    E2B --> R
+    E3A --> R
+    E4A --> R
+    E5B --> R
+    E5C --> R
+    E6A --> R
+    E6B --> R
+
+    R --> G[Governança e Confiabilidade]
+    G --> G1[Transparência da análise]
+    G --> G2[Proteção de credenciais]
+    G --> G3[Human-in-the-Loop]
+    G --> G4[Documentação da origem dos dados]
+    G --> G5[Governança baseada em RAG]
+
+    R --> H[Dashboard Web]
+    H --> H1[Mapa geográfico]
+    H --> H2[Indicadores de risco]
+    H --> H3[BLIP]
+    H --> H4[YOLO]
+    H --> H5[Relatório executivo]
+    H --> H6[Contexto RAG]
+    H --> H7[Status da estação ESP32]
+
+    R --> I[Estação ESP32]
+    I --> I1[LCD]
+    I --> I2[LED Verde]
+    I --> I3[LED Amarelo]
+    I --> I4[LED Vermelho]
+    I --> I5[Buzzer]
+    I --> I6[Botão Human-in-the-Loop]
