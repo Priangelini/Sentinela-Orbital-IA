@@ -12,7 +12,7 @@ transformers
 torch
 sentencepiece
 ultralytics
-opencv-python
+opencv-python-headless
 earthengine-api
 requests
 setuptools
