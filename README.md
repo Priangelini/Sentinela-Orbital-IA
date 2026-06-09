@@ -8,7 +8,7 @@
 
 # 🔥 Sentinela Orbital IA
 
-## Gestão de Crises com Sistema Preditivo em IA
+## **Sistema Multiagente para Monitoramento e Prevenção de Incêndios Florestais na Amazônia e Pantanal**
 
 ---
 
@@ -37,11 +37,11 @@
 
 # 📜 Sobre o Projeto
 
-O **Sentinela Orbital IA** é uma plataforma inteligente de monitoramento ambiental voltada para a análise preditiva de incêndios florestais em regiões prioritárias da Amazônia e do Pantanal.
+O **Sentinela Orbital IA** é uma plataforma inteligente de monitoramento ambiental desenvolvida para apoiar a prevenção e o monitoramento de incêndios florestais em regiões prioritárias da Amazônia e do Pantanal.
 
-A solução integra dados climáticos, focos de calor, índices de vegetação, imagens orbitais e Inteligência Artificial para apoiar ações de prevenção, monitoramento e resposta a incêndios.
+A solução integra dados climáticos do Open-Meteo, focos de calor do NASA FIRMS, índices de vegetação calculados via Google Earth Engine, imagens orbitais Sentinel-2, visão computacional com BLIP e YOLO, modelo preditivo XGBoost, arquitetura multiagente, recuperação de conhecimento via RAG e geração automática de relatórios utilizando OpenAI.
 
-O sistema foi desenvolvido utilizando uma arquitetura multiagente composta por modelos preditivos, visão computacional, recuperação de conhecimento (RAG) e IA Generativa, consolidando diferentes fontes de informação em uma única análise executiva.
+Os resultados são apresentados em um Dashboard Web desenvolvido com Streamlit e em uma estação local simulada com ESP32 no Wokwi, permitindo apoio à tomada de decisão e monitoramento ambiental de forma transparente e explicável.
 
 ---
 
@@ -63,15 +63,8 @@ Desenvolver uma solução capaz de:
 
 O sistema monitora nove municípios selecionados com base no histórico recente de focos de calor e relevância ambiental:
 
-- Altamira (PA)
-- Apuí (AM)
-- Barão de Melgaço (MT)
-- Corumbá (MS)
-- Lábrea (AM)
-- Novo Progresso (PA)
-- Poconé (MT)
-- Porto Murtinho (MS)
-- Porto Velho (RO)
+- **Amazônia**: Altamira (PA), Apuí (AM), Lábrea (AM), Novo Progresso (PA), Porto Velho (RO)
+- **Pantanal**: Corumbá (MS), Porto Murtinho (MS), Poconé (MT), Barão de Melgaço (MT)
 
 ---
 
@@ -283,6 +276,8 @@ O modelo XGBoost alcançou aproximadamente:
 - Recall Médio: 81%
 - F1-Score Médio: 81%
 
+O modelo apresentou desempenho satisfatório para um cenário acadêmico de classificação multiclasses (baixo, médio e alto risco), demonstrando capacidade de apoiar processos de monitoramento preventivo e análise de risco ambiental.
+
 ### Matriz de Confusão
 
 <p align="center">
@@ -313,7 +308,7 @@ https://github.com/Priangelini/Sentinela-Orbital-IA
 
 ### Vídeo Demonstrativo
 
-**Inserir link**
+[▶ Assistir demonstração](https://youtu.be/SEU_VIDEO)
 
 ---
 
