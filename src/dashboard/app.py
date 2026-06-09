@@ -459,7 +459,7 @@ OpenAI gera relatório executivo
         ↓
 Dashboard Web apresenta a análise
         ↓
-ESP32 simula estação local de alerta em campo
+ESP32 representa estação local de alerta e validação humana em campo
         """,
         language="text"
     )
