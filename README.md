@@ -1,70 +1,174 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href="https://www.fiap.com.br/">
-  <img src="../../../assets/logo-fiap.png" 
-       alt="FIAP - Faculdade de Informática e Administração Paulista" 
-       width="40%">
-</a>
+  <a href="https://www.fiap.com.br/">
+    <img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" width="35%">
+  </a>
 </p>
 
-<br>
+# 🔥 Sentinela Orbital IA
 
-# Global Solution - Sentinela Orbital IA 
+## Capítulo 1 - Gestão de Crises com Sistema Preditivo em IA
 
-## Equipe de Desenvolvimento
+---
 
-## 👨‍🎓 Integrantes: 
-- [Luana Porto Pereira Gomes](https://www.linkedin.com/in/luana-porto-pereira-gomes/)  
-- [Luma Oliveira](https://www.linkedin.com/in/luma-x)  
-- [Priscilla Oliveira](https://www.linkedin.com/in/priscilla-oliveira-023007333/)  
+## 👨‍💻 Equipe de Desenvolvimento
+
+### Integrantes
+
+- [Luana Porto Pereira Gomes](https://www.linkedin.com/in/luana-porto-pereira-gomes/)
+- [Luma Oliveira](https://www.linkedin.com/in/luma-x)
+- [Priscilla Oliveira](https://www.linkedin.com/in/priscilla-oliveira-023007333/)
 - [Paulo Bernardes](https://www.linkedin.com/in/paulobernardesqs)
 
-## 👩‍🏫 Professores:
-### Tutor(a) 
-- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Nome do Tutor</a>
-### Coordenador(a)
-- <a href="https://www.linkedin.com/in/andregodoichiovato/">Nome do Coordenador</a>
+---
 
+## 👩‍🏫 Professores
 
-## 📜 Descrição
+### Tutor
 
-O **Sentinela Orbital IA** é um sistema multiagente inteligente projetado para detecção, previsão e priorização de incêndios florestais, integrando tecnologias da nova economia espacial com Inteligência Artificial avançada.
+- [Leonardo Ruiz](https://www.linkedin.com/in/leonardoorabona/)
 
-A solução combina **dados orbitais** (NASA FIRMS e INPE), **dados climáticos** (Open-Meteo), **sensores embarcados** (ESP32 simulados no Wokwi), **visão computacional** (YOLOv8), **modelos preditivos** (XGBoost), **sistemas multiagentes**, **RAG**, **IA Generativa** e **computação quântica** (QAOA) para priorização de recursos.
+### Coordenador
 
-Os resultados são disponibilizados em um **Dashboard Web** (Streamlit) e em um **Aplicativo Mobile** (React Native), permitindo monitoramento em tempo real, alertas inteligentes e suporte à tomada de decisão por órgãos ambientais e equipes de combate a incêndios.
+- [André Godoi](https://www.linkedin.com/in/profandregodoi/)
 
-O projeto demonstra como tecnologias avançadas de IA e computação podem impulsionar a economia espacial e gerar impacto positivo direto na Terra, contribuindo para a prevenção de desastres ambientais e preservação de biomas brasileiros.
+---
 
+# 📜 Sobre o Projeto
 
-## 📁 Estrutura de pastas
+O **Sentinela Orbital IA** é uma plataforma inteligente de monitoramento ambiental voltada para a análise preditiva de incêndios florestais em regiões prioritárias da Amazônia e do Pantanal.
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+A solução integra dados climáticos, focos de calor, índices de vegetação, imagens orbitais e Inteligência Artificial para apoiar ações de prevenção, monitoramento e resposta a incêndios.
 
-- <b>data</b>: bases de dados utilizadas no projeto.
+O sistema foi desenvolvido utilizando uma arquitetura multiagente composta por modelos preditivos, visão computacional, recuperação de conhecimento (RAG) e IA Generativa, consolidando diferentes fontes de informação em uma única análise executiva.
 
-- <b>docs</b>: documentação, diagramas, arquitetura, relatórios e imagens.
+---
 
-- <b>src</b>: códigos-fonte da solução.
+# 🎯 Objetivo
 
-- <b>tests</b>: testes e validações.
+Desenvolver uma solução capaz de:
 
-- <b>README.md</b>: documentação principal do projeto
+- Monitorar indicadores ambientais em tempo real.
+- Avaliar risco de incêndios florestais.
+- Processar imagens orbitais.
+- Aplicar visão computacional para análise complementar.
+- Gerar relatórios executivos automatizados.
+- Disponibilizar informações por meio de Dashboard Web.
+- Simular alertas locais utilizando ESP32.
 
-```
-global-solution-1/
-|
+---
+
+# 🌎 Municípios Monitorados
+
+O sistema monitora nove municípios selecionados com base no histórico recente de focos de calor e relevância ambiental:
+
+- Altamira (PA)
+- Apuí (AM)
+- Barão de Melgaço (MT)
+- Corumbá (MS)
+- Lábrea (AM)
+- Novo Progresso (PA)
+- Poconé (MT)
+- Porto Murtinho (MS)
+- Porto Velho (RO)
+
+---
+
+# 🏗 Arquitetura da Solução
+
+O Sentinela Orbital IA foi desenvolvido utilizando uma arquitetura modular orientada a agentes especializados. Cada agente é responsável por uma etapa específica da análise, permitindo escalabilidade, rastreabilidade e transparência na tomada de decisão.
+
+<p align="center">
+    <img src="docs/imagens/fluxo_arquitetura.png" width="100%">
+</p>
+
+---
+
+# 🔄 Pipeline de Dados
+
+O pipeline integra coleta, processamento, aprendizado de máquina, visão computacional, recuperação de conhecimento e geração de relatórios executivos.
+
+<p align="center">
+    <img src="docs/imagens/pipeline_dados.png" width="100%">
+</p>
+
+---
+
+# 🧠 Tecnologias Utilizadas
+
+## Dados e Sensoriamento
+
+- ✅ Open-Meteo
+- ✅ NASA FIRMS
+- ✅ Google Earth Engine
+- ✅ Sentinel-2
+- ✅ NDVI
+
+## Inteligência Artificial
+
+- ✅ XGBoost
+- ✅ BLIP
+- ✅ YOLOv8
+- ✅ OpenAI GPT-4.1 Mini
+- ✅ RAG (Retrieval Augmented Generation)
+
+## Arquitetura Multiagente
+
+- ✅ Agente Climático
+- ✅ Agente de Risco
+- ✅ Agente Visual BLIP
+- ✅ Agente YOLO
+- ✅ Agente RAG
+- ✅ Agente Relatório
+- ✅ Agente Orquestrador
+
+## Dashboard e Visualização
+
+- ✅ Streamlit
+- ✅ Plotly
+- ✅ Folium
+
+## IoT
+
+- ✅ ESP32
+- ✅ LCD
+- ✅ LEDs de Alerta
+- ✅ Buzzer
+- ✅ Human-in-the-Loop
+
+## Governança e Confiabilidade
+
+- ✅ Transparência da análise
+- ✅ Fallback Local
+- ✅ Human-in-the-Loop
+- ✅ Proteção de Credenciais
+- ✅ Governança baseada em RAG
+- ✅ Documentação da origem dos dados
+
+---
+
+# 📁 Estrutura do Projeto
+
+```text
+Sentinela-Orbital-IA
+│
+├── .streamlit/
+│   └── config.toml
+│
+├── assets/
+│   └── logo-fiap.png
+│
 ├── data/
 │   ├── external/
-│   ├── raw/
-│   └── processed/
+│   ├── processed/
+│   └── raw/
 │
 ├── docs/
 │   ├── arquitetura/
+│   ├── base_conhecimento/
 │   ├── diagramas/
-│   ├── imagens/
-│   └── relatorio/
+│   └── imagens/
 │
 ├── src/
 │   ├── agents/
@@ -72,115 +176,202 @@ global-solution-1/
 │   ├── dashboard/
 │   ├── esp32/
 │   ├── ml/
-│   ├── mobile/
-│   ├── models/
-│   │   ├── xgboost/
-│   │   └── yolo/
-│   ├── notebooks/
-│   ├── quantum/
-│   ├── rag/
-│   ├── utils/
-│   └── vision/
+│   └── models/
 │
-├── tests/
-├── README.md
-├── requirements.txt
+├── .env
 ├── .gitignore
-
+├── README.md
+└── requirements.txt
 ```
 
-## 📎 Links 
+---
 
-- <b>Git</b>: Repositório GitHub 
+# ⚙ Funcionamento da Solução
 
-- <b>video</b>: Vídeo Demonstração
+### 1. Seleção do Município
 
+O usuário escolhe um dos municípios monitorados pelo Dashboard.
 
-## 🔧 Como executar o código
+### 2. Coleta de Dados
 
-### Pré-requisitos
+O sistema consulta:
 
-- **Python**: 3.10 ou superior
-- **Node.js**: 18 ou superior (para o aplicativo mobile)
-- **Git**: Instalado
-- **IDE recomendada**: Visual Studio Code
-- **Bibliotecas principais**:
-  - `streamlit`, `pandas`, `scikit-learn`, `xgboost`, `ultralytics` (YOLOv8)
-  - `langchain`, `openai` (para agentes e RAG)
-  - `qiskit` ou `pennylane` (simulação quântica)
-- **Conta OpenAI** (para os Agentes e IA Generativa)
-- **Conta AWS** (opcional - para S3)
+- Open-Meteo (dados climáticos)
+- NASA FIRMS (focos de calor)
+- Google Earth Engine
+- Sentinel-2
 
-### Passo a Passo de Execução
+### 3. Processamento
 
-1. Clone o repositório:
-   ```bash
-   git clone [URL_DO_SEU_REPOSITORIO]
-   cd sentinela-orbital-ia
-   ```
+Os dados são consolidados e preparados para análise.
 
-2. Crie e ative o ambiente virtual (recomendado):
+### 4. Predição
+
+O modelo XGBoost estima o risco de incêndio:
+
+- Baixo
+- Médio
+- Alto
+
+### 5. Interpretação Visual
+
+As imagens orbitais são avaliadas pelos agentes:
+
+- BLIP
+- YOLO
+
+### 6. Recuperação de Conhecimento
+
+O Agente RAG consulta protocolos operacionais e documentos de governança.
+
+### 7. Consolidação
+
+O Orquestrador integra os resultados produzidos pelos agentes.
+
+### 8. Relatório Executivo
+
+O Agente Relatório utiliza OpenAI e fallback local para geração textual.
+
+### 9. Visualização
+
+Os resultados são apresentados no Dashboard Web.
+
+### 10. Alerta Local
+
+O ESP32 simula uma estação de alerta utilizando LCD, LEDs e buzzer.
+
+---
+
+# 📚 Base de Conhecimento e Governança
+
+O sistema utiliza uma base local de conhecimento para suporte às recomendações e critérios de governança.
+
+```text
+docs/base_conhecimento/
+├── governanca_ia.txt
+└── protocolos_incendio.txt
+```
+
+Esses documentos são consultados pelo Agente RAG para enriquecer as análises e recomendações apresentadas ao usuário.
+
+---
+
+# 🛡 Governança e Uso Responsável
+
+O Sentinela Orbital IA foi desenvolvido seguindo princípios de IA Responsável.
+
+Principais práticas adotadas:
+
+- Uso de dados provenientes de fontes públicas e reconhecidas.
+- Separação entre coleta, processamento e apresentação.
+- Não versionamento de credenciais.
+- Uso de variáveis de ambiente para chaves de API.
+- Registro da origem dos dados utilizados.
+- Transparência na geração dos resultados.
+- Human-in-the-Loop para apoio à decisão.
+- Uso de RAG para recuperação de protocolos.
+- Fallback local para continuidade operacional.
+
+---
+
+# 📊 Resultados Obtidos
+
+O modelo XGBoost alcançou aproximadamente:
+
+- Accuracy: 81%
+- Precision Média: 82%
+- Recall Médio: 81%
+- F1-Score Médio: 81%
+
+### Matriz de Confusão
+
+<p align="center">
+    <img src="docs/imagens/matriz_confusao_xgboost.png" width="60%">
+</p>
+
+### Importância das Variáveis
+
+<p align="center">
+    <img src="docs/imagens/importancia_features_xgboost.png" width="60%">
+</p>
+
+---
+
+# 🚀 Demonstração
+
+### Dashboard Web
+
+https://sentinela-orbital-ia.streamlit.app/
+
+### Simulação ESP32 (Wokwi)
+
+https://wokwi.com/projects/466330583730476033
+
+### Repositório GitHub
+
+https://github.com/Priangelini/Sentinela-Orbital-IA
+
+### Vídeo Demonstrativo
+
+**Inserir link**
+
+---
+
+# 🔧 Como Executar Localmente
+
+## 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/Priangelini/Sentinela-Orbital-IA.git
+```
+
+```bash
+cd Sentinela-Orbital-IA
+```
+
+## 2. Criar Ambiente Virtual
 
 ```bash
 python -m venv venv
-# Windows:
+```
+
+Windows:
+
+```bash
 venv\Scripts\activate
-# Linux / Mac:
+```
+
+Linux/Mac:
+
+```bash
 source venv/bin/activate
 ```
-3. Instale as dependências:`
+
+## 3. Instalar Dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Configure as variáveis de ambiente:
-- Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
+## 4. Configurar Variáveis de Ambiente
 
-```bash
-.env
-OPENAI_API_KEY=sk-sua-chave-aqui
+Criar um arquivo `.env` na raiz do projeto:
+
+```env
+OPENAI_API_KEY=sua_chave_openai
+NASA_FIRMS_MAP_KEY=sua_chave_nasa_firms
 ```
 
-5. Execute o Dashboard Web (Streamlit):
+## 5. Executar o Dashboard
 
 ```bash
-cd src/dashboard
-streamlit run app.py
+streamlit run src/dashboard/app.py
 ```
-
-6. Execute o Aplicativo Mobile (React Native):`
-
-```bash
-cd src/mobile
-npm install
-npm start
-```
-
-7. Simulação do ESP32:
-
-- Acesse o link do projeto no Wokwi (disponível na pasta src/esp32/).
-
-8. Notebooks de Exploração:
-
-- Os notebooks estão disponíveis em src/notebooks/.
-
-
-## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
 
 ---
 
-## 📋 Licença
+# 📄 Licença
 
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/SabrinaOtoni/TEMPLATE-FIAP-GRAD-ON-IA">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">FIAP</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+Projeto acadêmico desenvolvido para a disciplina **Global Solution 2026 – FIAP**.
+
+Uso exclusivamente educacional.
