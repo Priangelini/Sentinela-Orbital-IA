@@ -304,7 +304,7 @@ https://wokwi.com/projects/466330583730476033
 
 ### Vídeo Demonstrativo
 
-[▶ Assistir demonstração](https://youtu.be/SEU_VIDEO)
+[▶ Assistir demonstração](https://youtu.be/7Pk-UNO0AgI)
 
 ---
 
